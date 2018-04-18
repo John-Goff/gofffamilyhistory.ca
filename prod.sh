@@ -1,3 +1,7 @@
 #!/bin/sh
 export PORT=80
-./gofffamilyhistory
+
+until ./gofffamilyhistory; do
+  echo "Server 'gofffamilyhistory' crashed with exit code $?.  Respawning.." >&2
+  sleep 1
+done
