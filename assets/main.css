@@ -17,93 +17,28 @@ p {
   font-kerning: none;
 }
 
-p.p1 {
-  line-height: 33.0px;
-  font: 28.0px Cambria;
-  color: #000000;
-  -webkit-text-stroke: #000000;
-}
-
-p.p2 {
+.maintext {
   line-height: 25.0px;
   font: 21.0px Cambria;
   color: #000000;
   -webkit-text-stroke: #000000;
 }
 
-p.p3 {
-  line-height: 30.0px;
-  font: 21.0px Cambria;
-  color: #000000;
-  -webkit-text-stroke: #000000;
-}
-
-p.p4 {
+.url {
   line-height: 25.0px;
   font: 21.0px Cambria;
   color: #0000ff;
   -webkit-text-stroke: #0000ff;
 }
 
-p.p6 {
-  line-height: 25.0px;
-  font: 21.0px Cambria;
-  -webkit-text-stroke: #000000;
+.spacetop {
+  margin-top: 20px;
 }
 
-p.p7 {
-  line-height: 25.0px;
-  font: 21.0px Cambria;
-  color: #0433ff;
-  -webkit-text-stroke: #0433ff;
+.spaceextended {
+  margin-top: 40px;
 }
 
-p.p8 {
-  line-height: 18.0px;
-  font: 21.0px Cambria;
-  color: #000000;
-  -webkit-text-stroke: #000000;
-}
-
-p.p9 {
-  line-height: 25.0px;
-  font: 21.0px Cambria;
-  color: #0000ff;
-  -webkit-text-stroke: #0433ff;
-}
-
-p.p10 {
-  line-height: 24.0px;
-  font: 21.0px Times;
-  color: #000000;
-  -webkit-text-stroke: #000000;
-}
-
-p.p11 {
-  line-height: 30.0px;
-  font: 25.0px Cambria;
-  color: #000000;
-  -webkit-text-stroke: #000000;
-}
-
-p.p12 {
-  line-height: 25.0px;
-  font: 21.0px Times;
-  color: #000000;
-  -webkit-text-stroke: #000000;
-}
-
-span.s2 {
-  font: 25.0px Cambria;
-}
-
-.ul {
-  text-decoration: underline;
-}
-
-span.s7 {
-  font: 21.0px Cambria;
-  text-decoration: underline;
-  color: #0000ff;
-  -webkit-text-stroke: 0px #0000ff;
+.maintext:last-of-type {
+  margin-bottom: 40px;
 }
